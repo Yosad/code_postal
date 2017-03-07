@@ -3,7 +3,7 @@
 <?php 
 	try {
 		// On se connecte à MySQL
-		$bdd = new PDO('mysql:host=www.yosad.com;dbname=villes_de_france;charset=utf8', 'root', '');
+		$bdd = new PDO('mysql:host=mysql-yosad.alwaysdata.net;dbname=yosad_codepostal;charset=utf8', 'yosad', '25mars95');
 	}
 	catch(Exception $e) {
 		// En cas d'erreur, on affiche un message et on arrête tout
